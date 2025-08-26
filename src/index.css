@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* helpers visuais */
+@layer utilities {
+  .card {
+    @apply rounded-xl bg-white shadow-sm ring-1 ring-slate-200;
+  }
+}
